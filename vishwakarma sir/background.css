@@ -1,0 +1,18 @@
+section {
+
+    background-color: black;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-between;
+     background: rgba(0, 128, 0, 0.3)
+    
+
+}
+
+div {
+    border: 2px solid black;
+    color: whitesmoke;
+    /*padding: 10px;*/
+    justify-content: space-between;
+    
+}

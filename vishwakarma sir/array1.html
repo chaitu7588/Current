@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <script>
+        var inputArray = [];
+
+        function storeInput() {
+            var inputValue = document.getElementById("userInput").value;
+            inputArray.push(inputValue);
+            document.getElementById("userInput").value = "";
+            document.getElementById("inputArray").innerText = "Input Array: " + inputArray.join(", ");
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="userInput"> <br> <br>
+    <button onclick="storeInput()">Submit</button>
+    <p id="inputArray"></p>
+</body>
+</html>

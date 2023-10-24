@@ -1,0 +1,42 @@
+*{
+
+     color: whitesmoke;
+}
+section{
+
+     display: flex;
+     border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background-color: black;
+}
+
+  ul{
+    display: flex;
+
+
+  }
+
+  li{
+      list-style: none;
+      padding: 30px;
+      font-size: xx-large;
+  }
+  #logo{
+
+         
+
+  }
+  li:hover{
+    color: whitesmoke;
+    background-color: green;
+  }
+  .fa{
+     
+     width: 70px;
+     font-size: 32px;
+  }
+  body{
+     
+  }

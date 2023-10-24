@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <div>
+
+        <input type="text" placeholder="text"><br>
+        <input type="text" placeholder="text" ><br>
+      <input type="button" value="create" onclick="make()">
+
+
+    </div>
+</form>
+<script>
+    function make(){
+    var tag = document.getElementsbyTagName('input')[0].value
+
+    var txt = document.getElementsByTagName('input')[1].value
+
+    var ele = document.createElement(tag)
+    console.log(ele);
+    var eletxt = document.createTextNode(txt)
+    console.log(eletxt)
+    console.log(ele);
+    }
+</script>
+
+</body>
+</html>

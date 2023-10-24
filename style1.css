@@ -1,0 +1,104 @@
+section {
+
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+}
+
+i {
+
+    padding: 10px 10px;
+    font-size: larger;
+    margin: 10px 10px;
+    height: 20px;
+    width: 40px;
+    font-size: 52px;
+}
+
+button {
+
+    margin-right: 20px;
+}
+
+#a {
+    display: flex;
+    justify-content: end;
+    border: 2px solid black;
+    
+    border: none;
+    
+}
+
+ul {
+    display: flex;
+    padding: 10px;
+}
+
+li {
+
+    list-style: none;
+    padding: 10px;
+
+}
+
+#b {
+      display: flex;
+      background-color: gray;
+      height: 700px;
+      justify-content: space-around;
+      
+}
+h1{
+
+       margin-left: 20px;
+       font-weight: 500;
+       font-size: 75px;
+}
+h2{
+
+    margin-left: 20px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+#c{
+}
+img{
+
+    height: 486px;
+    width: 830px;
+    margin-right: 20px;
+}
+.fa{
+    font-size: 65px;
+}
+#d{
+    height: 60px;
+    width: 123px;
+    margin-top: 23px;
+    margin-left: 30px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 10px 10px;
+
+}
+#e{
+    height: 60px;
+    width: 123px;
+    margin-right: 40px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 10px 10px;
+}
+.chaitu{
+
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    -webkit-clip-path: circle(70% at 50% 50%);
+clip-path: circle(50% at 50% 50%);   
+border: none;
+background-color: whitesmoke;
+ margin-bottom: 20px;
+}
